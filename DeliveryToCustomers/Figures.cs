@@ -24,7 +24,7 @@
         {
             if (sideA > sideB + sideC || sideB > sideA + sideC || sideC > sideA + sideB) throw new ArgumentException("Wrong arguments! Triangle with these parameters doesn't exist!");
 
-            if (sideA < 0 || sideB < 0 || sideC < 0) throw new ArgumentException("Values can't be less than zero");
+            if (sideA <= 0 || sideB <= 0 || sideC <= 0) throw new ArgumentException("Values can't be less than zero");
 
             _sideA = sideA;
             _sideB = sideB;
