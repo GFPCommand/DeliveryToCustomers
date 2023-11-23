@@ -35,7 +35,7 @@ namespace DeliveryToCustomers.Tests
             Assert.IsNotNull(circle);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void SquareTest()
         {
             double r = 10;
